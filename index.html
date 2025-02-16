@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section class="bg-[rgb(253,252,251)]">
+        <nav class="nav w-full flex justify-between items-center px-2  h-[4rem]  md:h-[6rem] md:py-[1rem] md:px-[1rem]">
+            <div class="nav-logo">
+                <img src="./images/logo-header.png" alt="" class="nav-img  w-[4rem] h-[3rem] md:w-[5rem] md:h-[3rem]">
+            </div>
+            <div class="nav-info hidden md:block md:pl-[8rem]">
+                <ul class="ul-info flex gap-[1.5rem] font-bold">
+                    <li>Product</li>
+                    <li>Services</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+           
+            <div class="nav-btn hidden md:flex items-center w-[20rem] justify-around ">
+
+                <i class="fa-solid fa-magnifying-glass mr-[1rem]"></i>
+                <i class="fa-solid fa-cart-shopping mr-[1rem]"></i>
+                <button class="btn border-2 border-[rgb(23,152,0)] bg-white w-[6rem] h-[0.5rem] rounded-xl">Login</button>
+                <button class="btn border bg-[rgb(23,152,0)] text-white w-[6rem] h-[0.5rem] rounded-xl">Register</button>
+               </div>
+               <div class="icon-nav block text-2xl md:hidden">
+                <i class="fa-solid fa-bars text-[rgb(23,152,0)] "></i>
+               </div>
+           
+    </nav>
+    <div class="hero-header px-8 md:w-[30rem] md:mx-auto">
+        <h1 class="head text-3xl font-black text-center py-[2rem] ">Freshness <span class="text-[rgb(23,152,0)]">You Can Count</span> On, Prices You’ll Love!</h1>
+        <p class="para text-center opacity-50">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+    </div>
+    <div class="header-img md:w-[35rem] mt-[2rem] md:mx-auto  " >
+        <img src="./images/hero-vegetables.png" alt=""class="img md:h-[20rem] md:w-[30rem] md:mx-auto ">
+    </div>
+    <div>
+        <h1 class="text-2xl text-center my-[2rem] font-bold text-[rgb(23,152,0)] md:ml-[6rem] md:mt-[2rem] md:text-start">Services</h1>
+
+        <div class=" flex flex-col gap-4 ml-[2rem] md:flex md:flex-row md:justify-center md:gap-4 md:mt-[3rem]">
+            <div class="border bg-[rgb(239,235,227)] w-[20rem] h-[15rem] p-4 rounded-md">
+                        <img src="./images/service.png" alt="" class="w-[4rem] h-[4rem] mx-auto mb-6 mt-6">
+                        <h1 class="font-bold mb-2 text-center">24/7 services</h1>
+                        <p class="text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+                        <div class=" border bg-[rgb(239,235,227)] w-[20rem] h-[15rem] p-4 rounded-md">
+                            <img src="./images/healthy.png" alt="" class="w-[4rem] h-[4rem] mx-auto mb-6 mt-6">
+                            <h1 class="font-bold mb-2 text-center">Fast delivery</h1>
+                            <p class="text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            </div>
+                            <div class=" border bg-[rgb(239,235,227)] w-[20rem] h-[15rem] p-4 rounded-md">
+                                <img src="./images/delivery.png" alt="" class="w-[4rem] h-[4rem] mx-auto mb-6 mt-6">
+                                <h1 class="font-bold mb-2 text-center">Healthy products</h1>
+                                <p class="text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                   
+            </div>
+        </div>
+    </div> 
+    </section>
+  
+    <div class=" mx-auto my-4 w-[8rem] md:ml-[5rem] ">
+        <h1 class="text-2xl pt-4  font-bold text-[rgb(23,152,0)]"> products </h1>
+    </div>
+    <!-- main-parent -->
+    <main class=" flex flex-col gap-[2rem] items-center my-[2rem] py-[2rem] md:flex-row md:justify-center md:items-center md:gap-[1rem] bg-[rgb(239,235,227)] md:my-[2rem] w-full h-md:[25rem]">
+        <!-- bannana card -->
+        <div class=" w-[20rem] h-[15rem] bg-[rgb(94,221,70)]">
+            <div class=" w-[15rem] h-[10rem] p-6">
+                <h1 class="font-extrabold text-[rgb(255,255,255)] mb-2">30% off</h1>
+                <p class="mb-2">Discover a world of treats,toys and essential handpick for.</p>
+                <button class="border-2 p-2 bg-white rounded-md font-bold">Buy now</button>
+            </div>
+            <div class="w-[8rem] h-[10rem] ml-[9rem]   relative bottom-24 ">
+                <img src="./images/vegetable-offer.png" alt="" class=" w-[30rem] h-[10rem] "> 
+            </div>
+                
+        </div>
+        <!-- vegitable card -->
+         <div class=" flex flex-col md:flex-row flex-wrap justify-around  md:w-[30rem] h-[15rem] w-[20rem] ">
+            <!-- small-card -->
+            <div  class="hidden  md:flex items-center justify-around  border-2 rounded-lg w-[9rem] h-[4rem] bg-white">
+
+                <div class="inner-card w-[3rem] h-[3rem] p-1 border  rounded-lg bg-[rgb(239,235,227)] ">
+                        <img src="./images/onion.png" alt="">
+                </div>
+                <div class="onion ">
+                    <h1 class="font-bold">Onion</h1>
+                    <h1 class="font-bold">$30.44</h1>
+                </div>
+            </div>
+            <div class=" hidden md:flex items-center justify-around border-2   rounded-lg w-[9rem] h-[4rem] bg-white">
+
+                <div class="inner-card w-[3rem] h-[3rem] p-1 border  rounded-lg bg-[rgb(239,235,227)] ">
+                        <img src="./images/potato.png" alt="">
+                </div>
+                <div class="onion ">
+                    <h1 class="font-bold">Potato</h1>
+                    <h1 class="font-bold">$30.44</h1>
+                </div>
+            </div>
+            <div class="hidden md:flex items-center justify-around border-2  rounded-lg w-[9rem] h-[4rem] bg-white">
+
+                <div class="inner-card w-[3rem] h-[3rem] p-1 border  rounded-lg bg-[rgb(239,235,227)] ">
+                        <img src="./images/tomato.png" alt="">
+                </div>
+                <div class="onion ">
+                    <h1 class="font-bold">Tomato</h1>
+                    <h1 class="font-bold">$30.44</h1>
+                </div>
+            </div>
+            <div class="flex  items-center justify-around border-2  rounded-lg w-[9rem] h-[4rem] bg-white">
+
+                <div class="inner-card w-[3rem] h-[3rem] p-1 border  rounded-lg bg-[rgb(239,235,227)] ">
+                        <img src="./images/onion.png" alt="">
+                </div>
+                <div class="onion ">
+                    <h1 class="font-bold">Onion</h1>
+                    <h1 class="font-bold">$30.44</h1>
+                </div>
+            </div>
+            <div class="flex items-center justify-around border-2  rounded-lg w-[9rem] h-[4rem] bg-white">
+
+                <div class="inner-card w-[3rem] h-[3rem] p-1 border-2 rounded-lg bg-[rgb(239,235,227)] ">
+                        <img src="./images/potato.png" alt="">
+                </div>
+                <div class="onion ">
+                    <h1 class="font-bold">Potato</h1>
+                    <h1 class="font-bold">$30.44</h1>
+                </div>
+            </div>
+            <div class="flex items-center justify-around border-2  rounded-lg w-[9rem] h-[4rem] bg-white">
+
+                <div class="inner-card w-[3rem] h-[3rem] p-1 border-2 rounded-lg bg-[rgb(239,235,227)] ">
+                        <img src="./images/tomato.png" alt="">
+                </div>
+                <div class="onion ">
+                    <h1 class="font-bold">Tomato</h1>
+                    <h1 class="font-bold">$30.44</h1>
+                </div>
+            </div>
+            <div class="flex items-center justify-around  border-2  rounded-lg w-[9rem] h-[4rem] bg-white">
+
+                <div class="inner-card w-[3rem] h-[3rem] p-1 border  rounded-lg bg-[rgb(239,235,227)] ">
+                        <img src="./images/onion.png" alt="">
+                </div>
+                <div class="onion ">
+                    <h1 class="font-bold">Onion</h1>
+                    <h1 class="font-bold">$30.44</h1>
+                </div>
+            </div>
+            <div class="flex items-center justify-around  border-2  rounded-lg w-[9rem] h-[4rem] bg-white">
+
+                <div class="inner-card w-[3rem] h-[3rem] p-1 border  rounded-lg bg-[rgb(239,235,227)] ">
+                        <img src="./images/potato.png" alt="">
+                </div>
+                <div class="onion ">
+                    <h1 class="font-bold">Potato</h1>
+                    <h1 class="font-bold">$30.44</h1>
+                </div>
+            </div>
+            <div class="flex items-center justify-around  border-2  rounded-lg w-[9rem] h-[4rem] bg-white">
+
+                <div class="inner-card w-[3rem] h-[3rem] p-1 border  rounded-lg bg-[rgb(239,235,227)] ">
+                        <img src="./images/tomato.png" alt="">
+                </div>
+                <div class="onion ">
+                    <h1 class="font-bold">Tomato</h1>
+                    <h1 class="font-bold">$30.44</h1>
+                </div>
+            </div>
+         </div>
+
+       <!-- <div class="border-2 border-black flex  w-[40rem] h-[15rem] gap-[2rem]">
+        <div class=" flex flex-col justify-center items-center gap-3 border-2 border-black h-[15rem] w-[10rem]">
+            <div class=" flex items-center w-[9rem] h-[4rem] border-2 gap-3 border-white bg-white rounded-md">
+                <div class="w-[4rem] h-[3rem] bg-[rgb(239,235,227)] rounded-md ">
+                    <img src="./images/onion.png" alt="" class="w-[3rem] h-[3rem]">
+                </div>
+                <div>
+                    <p class="font-bold text-sm">Onion 1kg</p>
+                    <p>$30</p>
+                </div>
+            </div>
+            <div class=" flex items-center w-[9rem] h-[4rem] gap-3 border-2 border-white bg-white" >
+                <div class="w-[4rem] h-[3rem] bg-[rgb(239,235,227)] rounded-md ">
+                    <img src="./images/onion.png" alt="" class="w-[3rem] h-[3rem]">
+                </div>
+                <div>
+                    <p class="font-bold text-sm">Onion 1kg</p>
+                    <p>$30</p>
+                </div>
+            </div>
+            <div class=" flex items-center w-[9rem] h-[4rem] border-2 gap-3 border-white bg-white">
+                <div class="w-[4rem] h-[3rem] bg-[rgb(239,235,227)] rounded-md ">
+                    <img src="./images/onion.png" alt="" class="w-[3rem] h-[3rem]">
+                </div>
+                <div>
+                    <p class="font-bold text-sm">Onion 1kg</p>
+                    <p>$30</p>
+                </div>
+            </div>
+        </div>
+        <div class=" flex flex-col justify-center items-center gap-3 border-2 border-black h-[15rem] w-[10rem]">
+            <div class=" md:flex items-center w-[9rem] h-[4rem] border-2 gap-3 border-white bg-white rounded-md">
+                <div class="w-[4rem] h-[3rem] bg-[rgb(239,235,227)] rounded-md ">
+                    <img src="./images/onion.png" alt="" class="w-[3rem] h-[3rem]">
+                </div>
+                <div>
+                    <p class="font-bold text-sm">Onion 1kg</p>
+                    <p>$30</p>
+                </div>
+            </div>
+            <div class=" flex items-center w-[9rem] h-[4rem] gap-3 border-2 border-white bg-white" >
+                <div class="w-[4rem] h-[3rem] bg-[rgb(239,235,227)] rounded-md ">
+                    <img src="./images/onion.png" alt="" class="w-[3rem] h-[3rem]">
+                </div>
+                <div>
+                    <p class="font-bold text-sm">Onion 1kg</p>
+                    <p>$30</p>
+                </div>
+            </div>
+            <div class=" flex items-center w-[9rem] h-[4rem] border-2 gap-3 border-white bg-white">
+                <div class="w-[4rem] h-[3rem] bg-[rgb(239,235,227)] rounded-md ">
+                    <img src="./images/onion.png" alt="" class="w-[3rem] h-[3rem]">
+                </div>
+                <div>
+                    <p class="font-bold text-sm">Onion 1kg</p>
+                    <p>$30</p>
+                </div>
+            </div>
+        </div>
+        <div class=" flex flex-col justify-center items-center gap-3 border-2 border-black h-[15rem] w-[10rem]">
+            <div class=" flex items-center w-[9rem] h-[4rem] border-2 gap-3 border-white bg-white rounded-md">
+                <div class="w-[4rem] h-[3rem] bg-[rgb(239,235,227)] rounded-md ">
+                    <img src="./images/onion.png" alt="" class="w-[3rem] h-[3rem]">
+                </div>
+                <div>
+                    <p class="font-bold text-sm">Onion 1kg</p>
+                    <p>$30</p>
+                </div>
+            </div>
+            <div class=" flex items-center w-[9rem] h-[4rem] gap-3 border-2 border-white bg-white" >
+                <div class="w-[4rem] h-[3rem] bg-[rgb(239,235,227)] rounded-md ">
+                    <img src="./images/onion.png" alt="" class="w-[3rem] h-[3rem]">
+                </div>
+                <div>
+                    <p class="font-bold text-sm">Onion 1kg</p>
+                    <p>$30</p>
+                </div>
+            </div>
+            <div class=" flex items-center w-[9rem] h-[4rem] border-2 gap-3 border-white bg-white">
+                <div class="w-[4rem] h-[3rem] bg-[rgb(239,235,227)] rounded-md ">
+                    <img src="./images/onion.png" alt="" class="w-[3rem] h-[3rem]">
+                </div>
+                <div>
+                    <p class="font-bold text-sm">Onion 1kg</p>
+                    <p>$30</p>
+                </div>
+            </div>
+        </div>
+       </div> -->
+    </main>
+        <!-- Arrival-text -->   
+        <div class="w-[15rem] h-[2rem]  my-[1rem] mx-auto md:mx-[5rem] text-2xl font-bold">
+            <h1 class=" text-[rgb(23,152,0)] mx-auto">Arrival & Offers</h1>
+        </div>
+        <!-- arrival-parraent -->
+        <div class="flex flex-col items-center md:flex-row md:justify-center gap-[1rem] w-full mt-[2rem] md:h-[20rem] h-[25rem]   rounded-xl">
+            <!-- card-arrival -->
+            <div class="arrival flex items-center justify-center gap-[2rem] w-[22rem] h-[12rem] md:w-[25rem] md:h-[15rem] border-2  rounded-md bg-[rgb(17,84,20)]">
+                <!-- inner-parrent -->
+                <div class="  w-[12rem] p-2 gap-[1rem] flex flex-col justify-center items-center">
+                    <img src="./images/dawat-logo.png" alt="" class="w-[6rem] h-[3rem]">
+                    <button class=" w-[10rem] h-[2.5rem] rounded-lg font-medium bg-[rgb(98,183,109)] text-white">Cook Exotic dishes</button>
+                    <h1 class="font-bold text-white">Up to <span class="font-extrabold text-2xl">20% off</span></h1>
+
+                </div>
+                <!-- car-img -->
+                 <div>
+                    <img src="./images/dawat-mock-up.png" alt="" class="w-[15rem] h-[10rem]">
+                 </div>
+
+            </div>
+           <!-- second-card -->
+            <div class=" flex items-center justify-center gap[2rem] border-2  bg-[rgb(16,24,97)] rounded-xl h-[12rem] md:h-[15rem] w-[22rem]">
+                <!-- card-log0 -->
+                <div class=" flex flex-col w-[11rem] h-[11rem] p-2 ">
+                    <img src="./images/india-gate-logo.png" alt="" class="w-[4rem] h-[6rem]">
+                    <button class=" bg-[rgb(42,77,151)] w-[10rem] h-[2.5rem] rounded-lg font-medium text-white"> World's No.1 Rice</button>
+                    <h1 class="font-bold text-white">Up to <span class="font-extrabold text-2xl">40% off</span></h1>
+                </div>
+                <!-- second-card-img -->
+                <div>
+                    <img src="./images/india-gate-mock-up.png" alt="" class="w-[7rem] h-[10rem] ml-3">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- last-card -->
+         <div class=" flex flex-col justify-center md:flex-row bg-[rgb(239,235,227)]  md:justify-evenly items-center md:w-[35rem] w-[20rem] h-[27rem] md:h-[15rem]  rounded-lg a md:relative md:start-90 md:top-25 md:my-0 md:mx-0 my-10 mx-auto">
+            <!-- last-card-img -->
+             <div class="">
+                <img src="./images/vegetable-busket.png" alt="" class="w-[12rem] h-[12rem]">
+             </div>
+             <!-- card-text-btn -->
+             <div class="  flex flex-col  w-[16rem] h-[12rem] gap-[1rem] px-[1rem] ">
+                <h1 class="text-xl font-bold">Get Grocery News</h1>
+                <p>Exclusive training tips, ticks, product deals and more.</p>
+                <input type="email" name="" id="" placeholder="Enter email" class="border-2 bg-white p-4 w-[15rem] h-[2.5rem] rounded-lg">
+                <button class="border-2 p-1 w-[6rem] rounded-lg text-white bg-[rgb(23,152,0)] ">Subscribe</button>
+
+             </div>
+
+         </div>
+         <footer class="  w-[100vw] h-[25rem] md:w-full md:h-[20rem]  bg-[rgb(23,152,0)] ">
+                <!-- footer-parent -->
+                <div class=" flex flex-col  gap-[2rem] md:ml-[4rem] md:flex-row   md:justify-around items-start pt-8 pl-8  w-[15rem] mt-16 pl-4 h-[20rem] md:w-[60rem] md:h-[7rem] bg-[rgb(23,152,0)] md:relative md:start-10 top-5md:start-50 md:top-30">
+                    <!-- logo-text -->
+                   <div class="h-[5rem] w-[10rem] md:w-[15rem]">
+                    <div class="md:w-[5rem] md:h-[4rem] ">
+                        <img src="./images/logo-header.png" alt="" class=" w-[4rem] h-[3rem] md:w-[4rem] md:h-[3rem] md:pt-[1rem] bg-white">      
+                    </div>
+                    <div class=" w-[7rem] md:w-[15rem] h-[5rem]">
+                        <p class="text-white">Discover a world of treats.</p>
+                    </div>
+                   </div>
+
+                   <!-- footer-info -->
+                    <div class="md:w-[5rem] md:h-[7rem] w-[4rem] h-[4rem]">
+                        <p class="md:my-3 text-white">products</p>
+                        <p class="md:my-3 text-white">Services</p>
+                        <p class="md:my-3 text-white">Contact</p>
+                    </div>
+                    <!-- icons -->
+                        <div class="w-[7rem] h-[5rem] md:w-[10rem] md:h-[5rem]">
+                            <h1 class=" mb-2 md:mb-4 font-bold text-white">Follow us</h1>
+                            <i class="fa-brands fa-facebook md:text-2xl pr-2 md:pr-[1rem] text-white"></i>
+                            <i class="fa-brands fa-instagram md:text-2xl pr-2 md:pr-[1rem] text-white "></i>
+                            <i class="fa-brands fa-youtube md:text-2xl pr-2 md:pr-[1rem] text-white"></i>
+                        </div>                    
+                </div>
+         </footer>
+       
+</body>
+</html>
